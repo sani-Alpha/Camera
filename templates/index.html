@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Streaming Camera Feed</title>
+</head>
+<body>
+  <h1>Streaming Camera Feed</h1>
+  <div id="camera">
+    <button id="camera">Capture</button>
+    <button id="stop">Stop</button>
+    <a id="download"></a>
+    <script type="text/javascript" src="{{ url_for('static', filename='capture.js') }}"></script>
+  </div>
+  <img id="image" src="{{ url_for('image_viewer') }}">
+</body>
+</html>
