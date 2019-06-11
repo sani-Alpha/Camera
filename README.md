@@ -1,4 +1,3 @@
-# DetectAndLogin
-This repository is a project that deals with Computer Vision.
-It first etects motion, if there is any, it runs a face recognition.
-If successfully recognized, it automatically logs you in the needed website (facebook in this case)
+# Camera
+This repository is a project that deals with capturing an image, applying filters.
+It runs through the html, which uses java script to run the flask streamer to stream the camera feed
